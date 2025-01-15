@@ -2,5 +2,8 @@
 Feature: # Enter feature name here
   # Enter feature description here
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+  Scenario: User can go to settings and edit the personal information
+    given Open sign in page
+    when enter_email
+    and enter password
+    and click on signin button
